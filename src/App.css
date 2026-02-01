@@ -136,3 +136,100 @@
     border-radius: 5px;
     border: none;
 }
+#popup{
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.25);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#popupWindow{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+#popupHeader{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgb(13,180,104);
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#signin{
+    width: calc(100% - 10px);
+    height: calc(100% - 60px);
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+#signin .usernameLabel{
+    display: block;
+    padding: 40px 0px 3px 0px;
+}
+input{
+    width: calc(100% - 5px);
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+#signin .passwordLabel{
+    display: block;
+    padding: 10px 0px 3px 0px;
+}
+#signin .forgotPassword{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+#signin .forgotPassword label{
+    color: rgb(13,180,104);
+    cursor: pointer;
+}
+#signin .forgotPassword label:hover{
+    color: rgb(227, 36, 7);
+}
+#signin .signinButton{
+    width: 100%;
+    height: 35px;
+    background: rgb(13,180,104);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#signin .signinButton:hover{
+    background: rgb(227, 36, 7);
+}
+#signin .div1{
+    width: 100%;
+    height: 80px;
+}
+#signin .div2{
+    width: 100%;
+    font-size: 7pt;
+    color: gray;
+    text-align: center;
+}
+#signin .div2 label{
+    display: block;
+    font-size: 9pt;
+    font-weight: bold;
+    color: rgb(13, 100, 104);
+    padding-top: 5px;
+    cursor: pointer;
+}
+#signin .div2 label:hover{
+    color: rgb(227, 36, 7);
+}
