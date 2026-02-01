@@ -1,0 +1,138 @@
+#container{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+#content{
+    width: 100%;
+    height: calc(100% - 110px);
+    background: #fdf1f4;
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background: white;
+}
+#header .logo{
+    width: 40px;
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+#header .logoText{
+    position: relative;
+    top: 15px;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-left: 10px;
+    float: left;
+    color: #3c4652;
+}
+#header .logoText span{
+    color: #2d7abe;
+}
+#header .signinIcon{
+    width: 36px;
+    position: relative;
+    float: right;
+    top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#header .signinText{
+    position: relative;
+    float: right;
+    font-size: 16px;
+    top: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#header .signinText:hover,
+.signinIcon:hover+.signinText{
+    text-decoration: underline;
+}
+#footer .copyrightText{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: 7pt;
+    color: gray;
+}
+#footer .socialmediaIcon{
+    width: 16px;
+    position: relative;
+    float: right;
+    top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#content .text1{
+    position:relative;
+    top: 30px;
+    margin-left: 10px;
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(13,130,104);
+}
+#content .text2{
+    position:relative;
+    top: 40px;
+    margin-left: 10px;
+    display: block;
+    font-size: 32pt;
+    font-weight: bold;
+}
+#content .text3{
+    position:relative;
+    top: 50px;
+    margin-left: 10px;
+    display: block;
+    font-size: 14pt;
+}
+#content .searchBar{
+    position: relative;
+    top: 70px;
+    margin-left: 10px;
+    display: block;
+    background: white;
+    border-radius: 15px;
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+}
+.searchBar .searchText{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-right: 1px solid silver;
+    font-size: 12pt;
+    background: url("./loupe.png") no-repeat;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    background-position: 0px center;
+}
+.searchBar .searchLocation{
+    width: 220px;
+    height: 40px;
+    border: none;
+    font-size: 12pt;
+    background: url("./gps-localization.png") no-repeat;
+    background-size: 30px 25px;
+    padding-left: 35px;
+    background-position: 0px center;
+}
+.searchBar .searchButton{
+    width: 100px;
+    height: 40px;
+    background: rgb(13,130,104);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
